@@ -1,0 +1,21 @@
+==============================================================================
+RAPORT ZGODNOSCI Z REGULAMINEM EuRoC (CR v1.1 / SRD v1.1)
+==============================================================================
+[PASS] CR 4.3       Impuls calkowity <= 40 960 Ns                wartosc=38810.06 | limit: <= 40960.0
+[PASS] CR 4.1       Apogeum ~9000 m AGL (kategoria L9)           wartosc=9042.50 | limit: cel 9000.0 (|d| < 5%)
+[PASS] SRD RQT-0010 Materialy pedne nietoksyczne (LOX/EtOH)      wartosc=LOX/Etanol (96%) | limit: lista nietoksyczna
+[PASS] SRD RQT-0860 Ladunek uzyteczny >= 1.0 kg                  wartosc=1.10 | limit: >= 1.0
+[PASS] SRD RQT-1000 Elewacja wyrzutni 84 +/- 1 deg               wartosc=84.00 | limit: 83..85 (regul. 70..85)
+[PASS] SRD App.I    Dlugosc szyny 12 m (Kanya 50x50)             wartosc=12.00 | limit: == 12
+[PASS] SRD RQT-1100 Predkosc zejœcia z szyny > 30 m/s            wartosc=33.32 | limit: > 30.0
+[PASS] SRD RQT-1020 Hold-down: prog zwolnienia ciagu             wartosc=3122.70 | limit: > W_rail=573 N
+[PASS] SRD RQT-1030 Margines stat. min. w locie >= 1.5 cal       wartosc=2.32 | limit: >= 1.5
+[PASS] SRD RQT-1030 Margines stat. max < 6 cal (nadstatecznosc)  wartosc=2.52 | limit: < 6.0
+[PASS] SRD RQT-1030 Margines przy zejsciu z szyny >= 1.5 cal     wartosc=2.34 | limit: >= 1.5
+[PASS] SRD RQT-0350 Drogue na apogeum (t_apogee)                 wartosc=43.03 | limit: t_apogee=43.03 s
+[PASS] SRD RQT-0360 Opadanie na drogue 23-46 m/s                 wartosc=[35.8, 32.1, 29.1, 26.9, 25.9] | limit: 23..46 (7..0.6 km AGL)
+[PASS] SRD RQT-0370 Main <= 450 m AGL                            wartosc=399.83 | limit: <= 450.0
+[PASS] SRD RQT-0380 Predkosc przyziemienia < 9 m/s               wartosc=7.45 | limit: < 9.0
+------------------------------------------------------------------------------
+Mach max: 1.54   q max: 113.1 kPa   a max: 80 m/s2 (8.2 g)
+Dryf wiatrowy miejsca ladowania: 3524 m
